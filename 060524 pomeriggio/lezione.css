@@ -1,0 +1,63 @@
+/*CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border: 5px solid green;
+    height:600px;
+    align-items:center;
+}
+
+
+.box{
+    display:flex;
+    width: 100px;
+    height: 100px;
+    border: 5px solid red
+
+}
+posizione
+div{
+    width: auto;
+    height: auto;
+    border radius:50%
+    background-color: aliceblue
+    position:relative;
+    top:100px
+    left:100px;
+
+    position:absolute sto sganciando il punto dal flow della pagina come se fosse su un altro layer,usato per le chat in basso a destra che rimangono sempre lì
+}
+.card{
+    border: ;
+    height: ;
+
+    position:relative il dot si attacca qui
+}
+
+esempio .dot{
+    width: auto;
+    height: ;
+    border-radius;50%;
+    background-color:red;
+    position:absolute; si aggancia al primo contenitore di base è il body
+    bottom:10px
+    right:10px
+il div di dot sta dentro il div di card
+}
+
+
+position:fixed;
+height:80px
+width:100 vw il 100% della grandezza massima della finestra
+top:0;
+left:0;
+
+
+position:sticky 

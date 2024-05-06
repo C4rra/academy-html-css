@@ -1,0 +1,27 @@
+/*CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*si riferisce a index academy*/
+
+.box{
+    
+    border: 2px solid red;
+    background-color:green;
+   
+    margin: 100px 50px;
+
+    padding:50px;
+
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color:brown
+}
+span{
+    color:blueviolet
+}
