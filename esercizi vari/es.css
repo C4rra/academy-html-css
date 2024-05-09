@@ -1,0 +1,60 @@
+.container {
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-container{
+    border: 2px solid blue;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 30px;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+
+
+  .box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .square {
+    width: 250px;
+    height: 250px;
+    border: 2px solid aqua;
+    margin-bottom: 10px;
+    
+    
+  }
+  .bottom-part{
+    width: auto;
+    height:auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-content:center;
+   
+
+    
+  }
+  
