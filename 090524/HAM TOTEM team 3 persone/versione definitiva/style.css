@@ -1,0 +1,85 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/sfondoham.jpeg");
+    font-family:fantasy;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 2px solid black;
+    height: 450px;
+    width: 450px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.welcome-message{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-sub, .right-sub{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.checkout-button{
+    background-color: rgb(247, 179, 76);
+    color: black;
+    width: 100px;
+    height: 40px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.bottoni{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coupon{
+    margin: 10px auto;
+}
+
+.carrello{
+    margin-top: 15px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+h1{
+    background-color: rgb(247, 179, 76);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.welcome-message{
+    font-weight: bolder;
+    font-size: 20px;
+
+}
